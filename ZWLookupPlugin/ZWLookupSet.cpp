@@ -203,7 +203,7 @@ bool ZWLookupSet::setCurrentEntry(const ZWLookupTableEntry& entry)
         const auto& existingEntry = m_entries[i];
         if (existingEntry.inputValues == entry.inputValues && existingEntry.lookupValues == entry.lookupValues)
         {
-            m_currentEntryIndex = i;
+            m_currentEntryIndex = (int)i;
             return true;
         }
     }

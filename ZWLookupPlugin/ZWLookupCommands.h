@@ -42,6 +42,7 @@ public:
     static ZcGePoint3d promptForPoint(const std::wstring& prompt);
     static bool promptForBool(const std::wstring& prompt);
     static int promptForInteger(const std::wstring& prompt, int minValue = 0, int maxValue = INT_MAX);
+    static std::wstring promptForLookupParameter();
 };
 
 // 命令函数声明

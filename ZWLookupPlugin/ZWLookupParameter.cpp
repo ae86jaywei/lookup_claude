@@ -234,7 +234,11 @@ void ZWLookupParameter::drawGrips(ZcGiViewportDraw* pVd) const
     // 1. 设置夹点大小（确保可见）
     double gripSize = 5.0; // 夹点大小
 
-    // 2. 绘制向下三角形
+    // 2. 设置夹点颜色为浅蓝色（使用颜色索引）
+    // 浅蓝色对应的颜色索引
+    pVd->subEntityTraits().setColor((ZSoft::UInt16)170); // 浅蓝色颜色索引
+
+    // 3. 绘制向下三角形
     ZcGePoint3dArray trianglePoints;
     trianglePoints.append(ZcGePoint3d(gripPoint.x, gripPoint.y, gripPoint.z));
     trianglePoints.append(ZcGePoint3d(gripPoint.x - gripSize, gripPoint.y - gripSize * 1.5, gripPoint.z));

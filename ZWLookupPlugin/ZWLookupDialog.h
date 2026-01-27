@@ -37,6 +37,7 @@ protected:
     // 控件变量
     CEdit m_editActionName;
     CListCtrl m_listInputProperties;
+    CListCtrl m_listQueryProperties;
     CEdit m_editQueryValue;
 
     // 数据变量
@@ -54,6 +55,9 @@ protected:
     afx_msg void OnBnClickedHelpButton();
     afx_msg void OnBnClickedOk();
     afx_msg void OnBnClickedCancel();
+public:
+    afx_msg void OnEnChangeActionName();
+    afx_msg void OnBnClickedGroupQuery();
 };
 
 // 添加参数特性对话框类
@@ -98,5 +102,7 @@ protected:
     afx_msg void OnBnClickedHelpButton();
     afx_msg void OnBnClickedOk();
     afx_msg void OnBnClickedCancel();
+public:
+    afx_msg void OnLvnItemchangedParamList(NMHDR* pNMHDR, LRESULT* pResult);
 };
 

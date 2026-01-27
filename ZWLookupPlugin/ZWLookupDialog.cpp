@@ -24,6 +24,7 @@ void CZWLookupTableDialog::DoDataExchange(CDataExchange* pDX)
     CDialogEx::DoDataExchange(pDX);
     DDX_Control(pDX, IDC_ACTION_NAME, m_editActionName);
     DDX_Control(pDX, IDC_INPUT_LIST, m_listInputProperties);
+    DDX_Control(pDX, IDC_QUERY_LIST, m_listQueryProperties);
     DDX_Control(pDX, IDC_QUERY_VALUE, m_editQueryValue);
 }
 
@@ -33,6 +34,8 @@ BEGIN_MESSAGE_MAP(CZWLookupTableDialog, CDialogEx)
     ON_BN_CLICKED(IDC_HELP_BUTTON, &CZWLookupTableDialog::OnBnClickedHelpButton)
     ON_BN_CLICKED(IDOK, &CZWLookupTableDialog::OnBnClickedOk)
     ON_BN_CLICKED(IDCANCEL, &CZWLookupTableDialog::OnBnClickedCancel)
+    ON_EN_CHANGE(IDC_ACTION_NAME, &CZWLookupTableDialog::OnEnChangeActionName)
+    ON_BN_CLICKED(IDC_GROUP_QUERY, &CZWLookupTableDialog::OnBnClickedGroupQuery)
 END_MESSAGE_MAP()
 
 // 对话框初始化
@@ -54,6 +57,11 @@ void CZWLookupTableDialog::initializeControls()
     m_listInputProperties.SetExtendedStyle(LVS_EX_GRIDLINES | LVS_EX_FULLROWSELECT);
     m_listInputProperties.InsertColumn(0, L"特性名称", LVCFMT_LEFT, 150);
     m_listInputProperties.InsertColumn(1, L"值", LVCFMT_LEFT, 100);
+    
+    // 初始化查寻特性列表
+    m_listQueryProperties.SetExtendedStyle(LVS_EX_GRIDLINES | LVS_EX_FULLROWSELECT);
+    m_listQueryProperties.InsertColumn(0, L"特性名称", LVCFMT_LEFT, 150);
+    m_listQueryProperties.InsertColumn(1, L"值", LVCFMT_LEFT, 100);
     
     // 初始化查寻值编辑框
     m_editQueryValue.SetWindowText(L"");
@@ -147,6 +155,7 @@ BEGIN_MESSAGE_MAP(CZWAddPropertyDialog, CDialogEx)
     ON_BN_CLICKED(IDC_HELP_BUTTON, &CZWAddPropertyDialog::OnBnClickedHelpButton)
     ON_BN_CLICKED(IDOK, &CZWAddPropertyDialog::OnBnClickedOk)
     ON_BN_CLICKED(IDCANCEL, &CZWAddPropertyDialog::OnBnClickedCancel)
+    ON_NOTIFY(LVN_ITEMCHANGED, IDC_PARAM_LIST, &CZWAddPropertyDialog::OnLvnItemchangedParamList)
 END_MESSAGE_MAP()
 
 // 对话框初始化
@@ -254,3 +263,25 @@ namespace ZWLookupDialogs
     }
 }
 
+
+void CZWLookupTableDialog::OnEnChangeActionName()
+{
+    // TODO:  如果该控件是 RICHEDIT 控件，它将不
+    // 发送此通知，除非重写 CDialogEx::OnInitDialog()
+    // 函数并调用 CRichEditCtrl().SetEventMask()，
+    // 同时将 ENM_CHANGE 标志“或”运算到掩码中。
+
+    // TODO:  在此添加控件通知处理程序代码
+}
+
+void CZWLookupTableDialog::OnBnClickedGroupQuery()
+{
+    // TODO: 在此添加控件通知处理程序代码
+}
+
+void CZWAddPropertyDialog::OnLvnItemchangedParamList(NMHDR* pNMHDR, LRESULT* pResult)
+{
+    LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+    // TODO: 在此添加控件通知处理程序代码
+    *pResult = 0;
+}
