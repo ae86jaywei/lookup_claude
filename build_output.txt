@@ -1,0 +1,194 @@
+﻿閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.0.5+e22287bf1
+鐢熸垚鍚姩鏃堕棿涓?2026/1/21 21:03:35銆?
+
+鑺傜偣 1 涓婄殑椤圭洰鈥淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin.sln鈥?榛樿鐩爣)銆?
+ValidateSolutionConfiguration:
+  姝ｅ湪鐢熸垚瑙ｅ喅鏂规閰嶇疆鈥淒ebug|x64鈥濄€?
+椤圭洰鈥淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin.sln鈥?1)姝ｅ湪鑺傜偣 1 涓婄敓鎴愨€淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj鈥?2) (榛樿鐩爣)銆?
+PrepareForBuild:
+  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+InitializeBuildStatus:
+  姝ｅ湪瀵光€淒:\ZWCAD_KF\lookup_claude\obj\x64\Debug\ZWLookupPlugin.tlog\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX86\x64\CL.exe /c /I"D:\ZWCAD_2026_ZRXSDK_20250905\arxport\inc-x64" /ID:\ZWCAD_KF\lookup_claude\ /ID:\ZWCAD_2026_ZRXSDK_20250905\inc /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D ZWLOOKUPPLUGIN_EXPORTS /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Yc"stdafx.h" /Fp"D:\ZWCAD_KF\lookup_claude\obj\x64\Debug\ZWLookupPlugin.pch" /Fo"D:\ZWCAD_KF\lookup_claude\obj\x64\Debug\\" /Fd"D:\ZWCAD_KF\lookup_claude\obj\x64\Debug\vc145.pdb" /external:W3 /Gd /TP /FC /errorReport:queue stdafx.cpp
+  stdafx.cpp
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(28,45): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(30,41): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(34,47): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(47,21): error C2761: 鈥渧oid ZcPublishUIReactor::OnInitPublishOptionsDialog(void)鈥? 涓嶅厑璁搁噸鏂板０鏄庢垚鍛?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(47,48): error C2065: 鈥淚Unknown鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(47,59): error C2065: 鈥減Unk鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(48,72): error C2065: 鈥減Info鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(48,48): error C2275: 鈥淶cPublishUIReactorInfo鈥? 搴斾负琛ㄨ揪寮忚€屼笉鏄被鍨?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(49,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(50,1): error C2059: 璇硶閿欒:鈥渳鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(50,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渳鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(55,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(55,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,26): error C2761: 鈥渧oid ZcPublishUIReactor::OnInitAutoPublishSettingsDialog(void)鈥? 涓嶅厑璁搁噸鏂板０鏄庢垚鍛?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,58): error C2065: 鈥淚Unknown鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,69): error C2065: 鈥減Unk鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,99): error C2065: 鈥減Info鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,75): error C2275: 鈥淶cPublishUIReactorInfo鈥? 搴斾负琛ㄨ揪寮忚€屼笉鏄被鍨?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(65,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(66,1): error C2059: 璇硶閿欒:鈥渳鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(66,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渳鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(70,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(70,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacprofile.h(66,13): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacprofile.h(68,13): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacprofile.h(70,13): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1212,18): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€滃父鏁扳€濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1212,18): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€滃父鏁扳€濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1212,18): error C2059: 璇硶閿欒:鈥滃父鏁扳€?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1213,5): error C2059: 璇硶閿欒:鈥?鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(1,1): warning C4819: 璇ユ枃浠跺寘鍚笉鑳藉湪褰撳墠浠ｇ爜椤?936)涓〃绀虹殑瀛楃銆傝灏嗚鏂囦欢淇濆瓨涓?Unicode 鏍煎紡浠ラ槻姝㈡暟鎹涪澶?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(28,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(31,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(34,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(41,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(44,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(48,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(51,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(54,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(57,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  (compiling source file 'stdafx.cpp')
+  
+D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\stdafx.cpp(9,1): error C1004: 鍙戠幇鎰忓鐨勬枃浠跺熬 [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+宸插畬鎴愮敓鎴愰」鐩€淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+宸插畬鎴愮敓鎴愰」鐩€淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin.sln鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+
+鐢熸垚澶辫触銆?
+
+鈥淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin.sln鈥?榛樿鐩爣) (1) ->
+鈥淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj鈥?榛樿鐩爣) (2) ->
+(ClCompile 鐩爣) -> 
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(1,1): warning C4819: 璇ユ枃浠跺寘鍚笉鑳藉湪褰撳墠浠ｇ爜椤?936)涓〃绀虹殑瀛楃銆傝灏嗚鏂囦欢淇濆瓨涓?Unicode 鏍煎紡浠ラ槻姝㈡暟鎹涪澶?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+
+
+鈥淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin.sln鈥?榛樿鐩爣) (1) ->
+鈥淒:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj鈥?榛樿鐩爣) (2) ->
+(ClCompile 鐩爣) -> 
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(28,45): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(30,41): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(34,47): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(47,21): error C2761: 鈥渧oid ZcPublishUIReactor::OnInitPublishOptionsDialog(void)鈥? 涓嶅厑璁搁噸鏂板０鏄庢垚鍛?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(47,48): error C2065: 鈥淚Unknown鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(47,59): error C2065: 鈥減Unk鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(48,72): error C2065: 鈥減Info鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(48,48): error C2275: 鈥淶cPublishUIReactorInfo鈥? 搴斾负琛ㄨ揪寮忚€屼笉鏄被鍨?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(49,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(50,1): error C2059: 璇硶閿欒:鈥渳鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(50,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渳鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(55,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(55,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,26): error C2761: 鈥渧oid ZcPublishUIReactor::OnInitAutoPublishSettingsDialog(void)鈥? 涓嶅厑璁搁噸鏂板０鏄庢垚鍛?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,58): error C2065: 鈥淚Unknown鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,69): error C2065: 鈥減Unk鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,99): error C2065: 鈥減Info鈥? 鏈０鏄庣殑鏍囪瘑绗?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(64,75): error C2275: 鈥淶cPublishUIReactorInfo鈥? 搴斾负琛ㄨ揪寮忚€屼笉鏄被鍨?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(65,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(66,1): error C2059: 璇硶閿欒:鈥渳鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(66,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渳鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(70,1): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacpublishuireactors.h(70,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacprofile.h(66,13): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacprofile.h(68,13): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_2026_ZRXSDK_20250905\inc\zacprofile.h(70,13): error C2061: 璇硶閿欒: 鏍囪瘑绗︹€淚Unknown鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1212,18): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€滃父鏁扳€濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1212,18): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€滃父鏁扳€濈殑鍓嶉潰) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1212,18): error C2059: 璇硶閿欒:鈥滃父鏁扳€?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\iphlpapi.h(1213,5): error C2059: 璇硶閿欒:鈥?鈥?[D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(28,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(31,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(34,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(41,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(44,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(48,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(51,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(54,3): error C4430: 缂哄皯绫诲瀷璇存槑绗?- 鍋囧畾涓?int銆傛敞鎰? C++ 涓嶆敮鎸侀粯璁?int [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupDefs.h(57,1): error C2447: 鈥渰鈥? 缂哄皯鍑芥暟鏍囬(鏄惁鏄€佸紡鐨勫舰寮忚〃?) [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+  D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\stdafx.cpp(9,1): error C1004: 鍙戠幇鎰忓鐨勬枃浠跺熬 [D:\ZWCAD_KF\lookup_claude\ZWLookupPlugin\ZWLookupPlugin.vcxproj]
+
+    1 涓鍛?
+    40 涓敊璇?
+
+宸茬敤鏃堕棿 00:00:08.58

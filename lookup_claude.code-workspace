@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DOCS/ZRX_Mgd"
+		},
+		{
+			"path": "../DOCS/ZWCAD_DotNET_Guide_chs_2026"
+		},
+		{
+			"path": "../DOCS/ZWCAD_DotNET_Migration_chs_2026"
+		},
+		{
+			"path": "../DOCS/ZWCAD_LISP_Reference_chs_2026"
+		},
+		{
+			"path": "../DOCS/ZWCAD_ZRX_Guide_chs_2026"
+		},
+		{
+			"path": "../DOCS/ZWCAD_ZRX_Migration_chs_2026"
+		},
+		{
+			"path": "../DOCS/ZWCAD_ZRX_Reference_eng_2026"
+		},
+		{
+			"path": "../../ZWCAD_2026_ZRXSDK_20250905"
+		},
+		{
+			"path": "C:/Autodesk/ObjectARX_for_AutoCAD_2022_Win_64bit_dlm"
+		},
+		{
+			"path": "../DOCS/CAD界面图片"
+		},
+		{
+			"path": "../方案计划/中望现有命令"
+		}
+	],
+	"settings": {}
+}
